@@ -44,12 +44,12 @@ Where you want to place the custom plugins and under Ionic project, run `npx @ca
 - Run `npm i file:./custom_plugins/capacitor-hello-toast` in your Ionic project.
 - Use `npx cap sync` for a new plugin or `npx cap update` for an update.
 
-#### Register the plugin in your Activity for Android
+#### Register the plugin for Android
 - Open [sample-ionic-project/android/app/src/main/java/io/ionic/starter/MainActivity.java].
 - `import com.example.plugin.HelloToastPlugin;`.
 - Add `add(HelloToastPlugin.class);` in onCreate method
  
-#### Register the plugin in your Activity for Web
+#### Register the plugin for Web
 - Open [sample-ionic-project/src/app/app.component.ts].
 - `import { registerWebPlugin } from '@capacitor/core';`.
 - `import { HelloToastPlugin } from '../../custom_plugins/capacitor-hello-toast/src';`.
@@ -79,5 +79,5 @@ It's probably easier to just add android and ios for capacitor again.
 - Remove [sample-ionic-project/android/] and [sample-ionic-project/ios/] folders.
 - `ionic build`.
 - Run `ionic cap add android` and `ionic cap add ios`.
-- Register the plugin in your Activity for Android.
+- Register the plugin for Android.
 - Run `ionic serve`, `ionic cap run android -l --external`, `ionic cap run ios -l`.

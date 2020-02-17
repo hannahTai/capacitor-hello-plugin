@@ -13,14 +13,14 @@ Make sure your Ionic project could run on browser and emulator.
 
 ## Generate Capacitor Plugin
 Where you want to place the custom plugins and under Ionic project, run `npx @capacitor/cli plugin:generate`.
-> Plugin NPM name (kebab-case): capacitor-hello-toast
-> Plugin id (domain-style syntax. ex: com.example.plugin) com.example.plugin
-> Plugin class name (ex: AwesomePlugin) HelloToastPlugin
-> description: A simple custom toast capacitor plugin for the starter.
-> git repository: https://github.com/hannahTaiWork/capacitor-hello-plugin.git
-> author: Hannah
-> license: MIT
-> package.json will be created, do you want to continue? (Y/n) Y
+Plugin NPM name (kebab-case): capacitor-hello-toast
+Plugin id (domain-style syntax. ex: com.example.plugin) com.example.plugin
+Plugin class name (ex: AwesomePlugin) HelloToastPlugin
+description: A simple custom toast capacitor plugin for the starter.
+git repository: https://github.com/hannahTaiWork/capacitor-hello-plugin.git
+author: Hannah
+license: MIT
+package.json will be created, do you want to continue? (Y/n) Y
 
 
 

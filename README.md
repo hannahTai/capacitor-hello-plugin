@@ -29,13 +29,13 @@ Where you want to place the custom plugins and under Ionic project, run `npx @ca
 - Declare plugin methods at [sample-ionic-project/custom_plugins/capacitor-hello-toast/src/definitions.ts] and [sample-ionic-project/custom_plugins/capacitor-hello-toast/ios/Plugin/Plugin.m].
 
 #### Android
-Write native android code at [sample-ionic-project/custom_plugins/capacitor-hello-toast/android/src/main/java/com/example/plugin/HelloToastPlugin.java].
+- Write native android code at [sample-ionic-project/custom_plugins/capacitor-hello-toast/android/src/main/java/com/example/plugin/HelloToastPlugin.java].
 
 #### iOS
-Write native iOS code at [sample-ionic-project/custom_plugins/capacitor-hello-toast/ios/Plugin/Plugin.swift].
+- Write native iOS code at [sample-ionic-project/custom_plugins/capacitor-hello-toast/ios/Plugin/Plugin.swift].
 
 #### Web
-Write web code at [sample-ionic-project/custom_plugins/capacitor-hello-toast/src/web.ts].
+- Write web code at [sample-ionic-project/custom_plugins/capacitor-hello-toast/src/web.ts].
 
 
 

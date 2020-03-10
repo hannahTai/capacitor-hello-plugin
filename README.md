@@ -1,5 +1,5 @@
 # Custom Capacitor Plugin
-A brief note for custom capacitor plugin.
+A brief note for custom capacitor plugin with Ionic & Angular & Capacitor.
 
 
 
